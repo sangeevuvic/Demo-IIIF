@@ -169,6 +169,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://sangeevuvic.github.io/Demo-IIIF/images/Cormorant/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "Cormorant"
+                ]
+            },
+            "height": 948,
+            "width": 640,
+            "items": [
+                {
+                    "id": "https://sangeevuvic.github.io/Demo-IIIF/images/Cormorant/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://sangeevuvic.github.io/Demo-IIIF/images/Cormorant/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://sangeevuvic.github.io/Demo-IIIF/images/Cormorant/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 30
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 60
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 119
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 237
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 474
+                                            },
+                                            {
+                                                "width": 640,
+                                                "height": 948
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 640,
+                                        "id": "https://sangeevuvic.github.io/Demo-IIIF/images/Cormorant",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 948
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://sangeevuvic.github.io/Demo-IIIF/images/Cormorant/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
